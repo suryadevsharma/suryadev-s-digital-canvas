@@ -38,9 +38,9 @@ const HeroSection = () => {
           transition={{ delay: 0.5 }}
           className="text-muted-foreground max-w-xl text-lg leading-relaxed mb-10"
         >
-          Software Engineering undergraduate skilled in Python, Django, and REST APIs.
-          Passionate about building AI-powered and full-stack applications with scalable backend systems.
-          Solved <span className="text-primary font-semibold">300+</span> DSA problems.
+          Backend-focused Software Engineering undergraduate skilled in Python, Django, FastAPI, and REST APIs.
+          Developed AI-based and full-stack applications with real-world deployment experience.
+          Solved <span className="text-primary font-semibold">300+</span> DSA problems and passionate about building scalable backend systems.
         </motion.p>
 
         <motion.div
