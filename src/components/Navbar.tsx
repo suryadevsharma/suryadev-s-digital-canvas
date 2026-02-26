@@ -55,6 +55,8 @@ const Navbar = () => {
             <a
               href="/SuryadevSharma_Resume.pdf"
               target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => { e.preventDefault(); window.open('/SuryadevSharma_Resume.pdf', '_blank'); }}
               className="border border-primary text-primary px-4 py-2 rounded text-sm font-mono hover:bg-primary/10 transition-colors"
             >
               Resume
