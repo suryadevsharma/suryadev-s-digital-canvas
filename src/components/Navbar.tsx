@@ -53,10 +53,10 @@ const Navbar = () => {
           ))}
           <motion.li initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}>
             <a
-              href="/SuryadevSharma_Resume.pdf"
+              href="https://drive.google.com/file/d/1h69N_-Y583eBVNCIKZxPDT41LYF8oiB7/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => { e.preventDefault(); window.open('/SuryadevSharma_Resume.pdf', '_blank'); }}
+              onClick={(e) => { e.preventDefault(); window.open('https://drive.google.com/file/d/1h69N_-Y583eBVNCIKZxPDT41LYF8oiB7/view?usp=drivesdk', '_blank'); }}
               className="border border-primary text-primary px-4 py-2 rounded text-sm font-mono hover:bg-primary/10 transition-colors"
             >
               Resume

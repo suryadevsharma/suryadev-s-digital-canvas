@@ -4,11 +4,19 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Interactive Wall Calendar",
+    description:
+      "A responsive, modern, and interactive wall calendar component with a dual-column layout, date range selection, and persistent notes system.",
+    tech: ["Next.js", "Tailwind CSS", "date-fns"],
+    live: "https://calendar-component-pi.vercel.app/",
+    github: "https://github.com/suryadevsharma",
+  },
+  {
     title: "IntelliGuard – AI Fire & Smoke Detection",
     description:
       "Real-time fire and smoke detection system using YOLO-based deep learning and computer vision. Features REST APIs via FastAPI and an interactive Streamlit dashboard for live monitoring.",
     tech: ["Python", "YOLO", "FastAPI", "OpenCV", "Streamlit"],
-    live: "https://firesmokedetection-npaxvkaxa9eqkvenrgkgw7.streamlit.app/",
+    live: "https://huggingface.co/spaces/suryadevsharma11/intelliguard-ai",
     github: "https://github.com/suryadevsharma",
   },
   {
@@ -32,20 +40,6 @@ const projects = [
     description:
       "Machine learning model for predicting house prices based on various features. Built with Python and data science libraries.",
     tech: ["Python", "ML", "Data Science"],
-    github: "https://github.com/suryadevsharma",
-  },
-  {
-    title: "Visual Playground Studio",
-    description:
-      "An interactive visual playground built with TypeScript for experimenting with creative coding and visual effects.",
-    tech: ["TypeScript", "React"],
-    github: "https://github.com/suryadevsharma",
-  },
-  {
-    title: "NewsHub",
-    description:
-      "A news aggregation platform that curates and displays the latest news from various sources in a clean, readable format.",
-    tech: ["Python", "Web"],
     github: "https://github.com/suryadevsharma",
   },
 ];
