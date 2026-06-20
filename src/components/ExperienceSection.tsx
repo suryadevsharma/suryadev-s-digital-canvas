@@ -27,13 +27,13 @@ const ExperienceSection = () => {
               Summer Intern – <span className="text-primary">Generative AI</span>
             </h3>
             <p className="text-muted-foreground font-mono text-sm mt-1">
-              Smart Internz (AKTU) · Remote · June 2025 – July 2025
+              Smart Internz | Remote · June 2025 – August 2025
             </p>
             <ul className="mt-4 space-y-3 text-muted-foreground">
               {[
-                "Completed structured training in Generative AI and Prompt Engineering, building AI-based applications using Google AI Studio and Gemini APIs.",
-                "Developed and experimented with AI-powered applications and chatbot using Gemini APIs.",
-                "Collaborated on mini-projects focused on applying AI models to real-world problem statements.",
+                "Built AI-powered chatbot applications using Gemini APIs and Python.",
+                "Processed prompt-response datasets to improve model outputs.",
+                "Integrated APIs and deployed applications on Render for real-time usage.",
               ].map((item, i) => (
                 <li key={i} className="flex gap-3">
                   <span className="text-primary mt-1 shrink-0">▹</span>

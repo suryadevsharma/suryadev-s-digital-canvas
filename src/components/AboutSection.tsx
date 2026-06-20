@@ -22,7 +22,7 @@ const AboutSection = () => {
 
         <div className="space-y-4 text-muted-foreground leading-relaxed">
           <p>
-            I'm a <span className="text-foreground">B.Tech Computer Science</span> student at United College of Engineering and Research, Prayagraj (CGPA: 7.7/10), graduating in 2026.
+            I'm a <span className="text-foreground">B.Tech Computer Science</span> student at United College of Engineering and Research, Prayagraj (CGPA: 7.86/10), graduating in 2026.
           </p>
           <p>
             I enjoy building software that lives at the intersection of <span className="text-foreground">AI and full-stack development</span>. My experience spans from creating real-time fire detection systems with YOLO and FastAPI, to full-stack booking platforms with Django and React.

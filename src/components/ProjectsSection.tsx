@@ -4,20 +4,28 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Krishi Sankalp (कृषि संकल्प)",
+    description:
+      "An advanced agricultural intelligence platform providing real-time mandi prices, logistics cost estimates, FPO search directories, weather forecasts, price alerts, and machine learning models for crop recommendation and pest diagnosis.",
+    tech: ["React (Vite)", "FastAPI", "PostgreSQL", "TensorFlow", "Tailwind CSS"],
+    live: "https://krishi-sankalp-frontend.onrender.com",
+    github: "https://github.com/suryadevsharma/krishi-sankalp",
+  },
+  {
     title: "Interactive Wall Calendar",
     description:
       "A responsive, modern, and interactive wall calendar component with a dual-column layout, date range selection, and persistent notes system.",
     tech: ["Next.js", "Tailwind CSS", "date-fns"],
     live: "https://calendar-component-pi.vercel.app/",
-    github: "https://github.com/suryadevsharma",
+    github: "https://github.com/suryadevsharma/calendar-component",
   },
   {
-    title: "IntelliGuard – AI Fire & Smoke Detection",
+    title: "DocMind",
     description:
-      "Real-time fire and smoke detection system using YOLO-based deep learning and computer vision. Features REST APIs via FastAPI and an interactive Streamlit dashboard for live monitoring.",
-    tech: ["Python", "YOLO", "FastAPI", "OpenCV", "Streamlit"],
-    live: "https://huggingface.co/spaces/suryadevsharma11/intelliguard-ai",
-    github: "https://github.com/suryadevsharma",
+      "A production-ready RAG Document Q&A application for uploading PDF/DOCX files and chatting with their contents using Google Gemini. Features real-time streaming, JWT auth, and vector search.",
+    tech: ["FastAPI", "React", "Google Gemini", "ChromaDB", "MySQL", "Tailwind CSS"],
+    live: "https://docmind-2bze.vercel.app",
+    github: "https://github.com/suryadevsharma/docmind",
   },
   {
     title: "Navi-Guide – Online Guide Booking",
@@ -25,7 +33,15 @@ const projects = [
       "Full-stack web app for discovering, booking, and managing tour guides. Features user authentication, role-based access, and responsive React frontend with RESTful Django backend.",
     tech: ["Django", "React.js", "MySQL", "Tailwind CSS"],
     live: "https://guide-hub-plus.vercel.app/",
-    github: "https://github.com/suryadevsharma",
+    github: "https://github.com/suryadevsharma/guide-hub-plus",
+  },
+  {
+    title: "IntelliGuard – AI Fire & Smoke Detection",
+    description:
+      "Real-time fire and smoke detection system using YOLO-based deep learning and computer vision. Features REST APIs via FastAPI and an interactive Streamlit dashboard for live monitoring.",
+    tech: ["Python", "YOLO", "FastAPI", "OpenCV", "Streamlit"],
+    live: "https://huggingface.co/spaces/suryadevsharma11/intelliguard-ai",
+    github: "https://github.com/suryadevsharma/PyroSense-AI-Main",
   },
   {
     title: "AI Chatbot",
@@ -33,14 +49,43 @@ const projects = [
       "An AI-powered chatbot application built with modern web technologies, capable of intelligent conversations and real-time responses.",
     tech: ["Python", "AI/ML", "Web"],
     live: "https://ai-chatbot-duov.onrender.com/",
-    github: "https://github.com/suryadevsharma",
+    github: "https://github.com/suryadevsharma/ai-chatbot",
   },
   {
     title: "House Price Prediction Model",
     description:
       "Machine learning model for predicting house prices based on various features. Built with Python and data science libraries.",
     tech: ["Python", "ML", "Data Science"],
-    github: "https://github.com/suryadevsharma",
+    github: "https://github.com/suryadevsharma/House-Prediction-Model",
+  },
+  {
+    title: "HubSpot DLT Integration Service",
+    description:
+      "A production-ready data extraction service that pulls Deals data from HubSpot, pipelines it through DLT (Data Load Tool), and stores it in PostgreSQL, offering FastAPI REST endpoints for tracking.",
+    tech: ["FastAPI", "DLT", "PostgreSQL", "SQLAlchemy", "Docker"],
+    github: "https://github.com/suryadevsharma/hubspot-dlt-integration",
+  },
+  {
+    title: "ServiceHive GenAI Agent",
+    description:
+      "A production-ready Generative AI agent system combining a FastAPI backend, Streamlit frontend, LangChain tool-calling agents (web search, calculator, ChromaDB RAG pipeline), and local vector store retrieval.",
+    tech: ["FastAPI", "Streamlit", "LangChain", "ChromaDB", "Llama3"],
+    github: "https://github.com/suryadevsharma/servicehive-genai-agent",
+  },
+  {
+    title: "Team Task Manager",
+    description:
+      "A full-stack, responsive team task and project management web application. Features dashboards, project workspaces, task assignment, and CRUD operations.",
+    tech: ["Node.js", "Express", "SQLite", "React", "CSS"],
+    github: "https://github.com/suryadevsharma/Team-Task-Manager",
+  },
+  {
+    title: "Fire & Smoke Detection",
+    description:
+      "Core software-based project used for detecting smog and fire and alerting nearby emergency centers.",
+    tech: ["Python", "OpenCV", "YOLO"],
+    live: "https://fire-smoke-detection.vercel.app",
+    github: "https://github.com/suryadevsharma/Fire_Smoke_Detection",
   },
 ];
 
